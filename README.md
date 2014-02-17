@@ -3,6 +3,8 @@ mantra.am
 
 Read. Code. Write. Repeat.
 
+List of personal front-end best practice.
+
 **Content**
 
 - my CSS conventions
@@ -13,13 +15,14 @@ Read. Code. Write. Repeat.
 - Web page performance
 - Responsive must
 - QA
+- Other
 
 =========
 
 # My CSS conventions
 
 ##BEM 
-http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
+- http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
 
 ```css
 .block
@@ -45,16 +48,30 @@ classes that are purely for js use
 Worth bothering?
 
 ##Avoid code smell
-http://csswizardry.com/2012/11/code-smells-in-css/
-http://www.creativebloq.com/css3/avoid-css-mistakes-10135080
+- http://csswizardry.com/2012/11/code-smells-in-css/
+- http://www.creativebloq.com/css3/avoid-css-mistakes-10135080
 
 # Web page performance
-http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/
+- http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/
+
+## Images
+Use http://www.smushit.com/ysmush.it/
+
+## Check the page performance and refine
+- https://developers.google.com/speed/pagespeed/
+- http://yslow.org/
 
 # Responsive must
 //TODO
+- viewport?
 
 #QA
 ST 2 plugins: JSHint (http://jshint.com), SublimeLinter (https://github.com/SublimeLinter/SublimeLinter-for-ST2)
+
+#Other
+
+## Social media
+- use og
+- use twittercards
 
 
