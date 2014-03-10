@@ -16,6 +16,7 @@ List of personal front-end best practice.
 - Responsive must
 - QA
 - Other
+- Links
 
 =========
 
@@ -73,5 +74,8 @@ ST 2 plugins: JSHint (http://jshint.com), SublimeLinter (https://github.com/Subl
 ## Social media
 - use og
 - use twittercards
+
+#Links
+- https://github.com/Snugug/north - a much more complex project guide
 
 
