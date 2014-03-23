@@ -78,5 +78,6 @@ ST 2 plugins: JSHint (http://jshint.com), SublimeLinter (https://github.com/Subl
 #Links
 - https://github.com/Snugug/north - a much more complex project guide
 - http://www.welcomebrand.co.uk/thoughts/the-big-list-of-design-and-development-resources/
+- https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills
 
 
