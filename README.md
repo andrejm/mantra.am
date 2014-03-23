@@ -55,6 +55,9 @@ Worth bothering?
 - http://csswizardry.com/2012/11/code-smells-in-css/
 - http://www.creativebloq.com/css3/avoid-css-mistakes-10135080
 
+## ♥
+Gotta try this on next project ;) [Unicode CSS classes](http://davidwalsh.name/unicode-css-classes)
+
 # Web page performance
 - http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/
 
