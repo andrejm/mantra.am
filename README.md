@@ -15,6 +15,7 @@ List of personal front-end best practice.
 - Web page performance
 - Responsive must
 - QA
+- WordPress workflow
 - Other
 - Links
 
@@ -68,6 +69,9 @@ Use http://www.smushit.com/ysmush.it/
 
 #QA
 ST 2 plugins: JSHint (http://jshint.com), SublimeLinter (https://github.com/SublimeLinter/SublimeLinter-for-ST2)
+
+#WordPress development workflow
+Local development (XAMPP, SublimeText2, sometimes Stylus+Prepros, git repo) -> git push theme files to dev server (actually test server), push database with [WP Migrate DB Pro](https://deliciousbrains.com/wp-migrate-db-pro/) -> deploy to production with *(to be decided - deployhq?)*
 
 #Other
 
