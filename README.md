@@ -13,6 +13,8 @@ List of personal front-end best practice.
   - OOCSS
   - CSS Code smell 
 - Web page performance
+  - Images and CSS sprites
+  - Checking the performance
 - Responsive must
 - QA
 - WordPress workflow
@@ -56,10 +58,19 @@ Worth bothering?
 # Web page performance
 - http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/
 
-## Images
-Use http://www.smushit.com/ysmush.it/
+## Images and CSS sprites
+Use http://www.smushit.com/ysmush.it/ to sompress used images.
+
+Use spriting in order to cut down number of HTTP requests. Avoid empty pixels.
+*"if you can’t sprite an element because it’s fluid, you place an empty element inside it that you can fix the dimensions of that you then can sprite up"* (csswizardry article on performance)
+```html
+<a href="#"><i class="icon  icon--balicky"></i> Balicky</a>
+```
+
+CSS sprites caveats solutions on [Smashing magazine](http://coding.smashingmagazine.com/2012/04/11/css-sprites-revisited/) (04/2012).
 
 ## Check the page performance and refine
+Use tools to check on performance during development and especially before going to production.
 - https://developers.google.com/speed/pagespeed/
 - http://yslow.org/
 
