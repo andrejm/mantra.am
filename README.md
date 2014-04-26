@@ -9,6 +9,7 @@ List of personal front-end best practice.
 
 - my CSS conventions
   - BEM
+  - Idiomatic CSS
   - js-delimited classes
   - OOCSS
   - CSS Code smell 
@@ -18,6 +19,7 @@ List of personal front-end best practice.
 - Responsive must
 - QA
 - WordPress workflow
+- Patterns
 - Other
 - Links
 
@@ -40,6 +42,9 @@ List of personal front-end best practice.
 .person__nails 
 .person__hand__nails 
 ```
+
+##Idiomatic CSS
+- use the principles when writing CSS - https://github.com/necolas/idiomatic-css
 
 ##use JS- delimited classes
 
@@ -86,6 +91,18 @@ ST 2 plugins: JSHint (http://jshint.com), SublimeLinter (https://github.com/Subl
 
 #WordPress development workflow
 Local development (XAMPP, SublimeText2, sometimes Stylus+Prepros, git repo) -> git push theme files to dev server (actually test server), push database with [WP Migrate DB Pro](https://deliciousbrains.com/wp-migrate-db-pro/) -> deploy to production with *(to be decided - deployhq?)*
+
+#Patterns
+- sticky footer:
+http://www.cssstickyfooter.com/using-sticky-footer-code.html
+ryanfait.com/resources/footer-stick-to-bottom-of-page/ - with extra push element
+http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ - with flexbox
+
+- site logo
+Site logo is content, mark it up like content (do not use background-image). Avoid using h1 as logo. (http://csswizardry.com/2010/10/your-logo-is-an-image-not-a-h1/)
+- http://gandrweb.com/blog/comments/semantically-correct-website-logos
+
+- styling searchbox
 
 #Other
 
