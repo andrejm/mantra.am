@@ -114,5 +114,7 @@ Site logo is content, mark it up like content (do not use background-image). Avo
 - https://github.com/Snugug/north - a much more complex project guide
 - http://www.welcomebrand.co.uk/thoughts/the-big-list-of-design-and-development-resources/
 - https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills
+- http://mdo.github.io/code-guide/
+- http://cssguidelin.es/
 
 
